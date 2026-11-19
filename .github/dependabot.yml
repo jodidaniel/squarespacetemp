@@ -2,7 +2,8 @@
 # exact release tag in .github/workflows/*.yml and locked to a commit in
 # .github/workflows/actions.lock (Dependabot updates both). Bumps land
 # unattended through .github/workflows/dependabot-auto-merge.yml once CI is
-# green.
+# green. dependabot-config-health in Adam-S-Daniel/_agent-guidance reads
+# GitHub's check of this file on the commit that last changed it.
 version: 2
 updates:
   - package-ecosystem: github-actions
